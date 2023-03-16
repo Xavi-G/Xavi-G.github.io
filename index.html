@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col col-4 logo">
+                <a href="#about">Xavier Rodrigues</a>
+            </div>
+            <div class="col col-8 nav">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </div>
+    </header>
+        
+    <div class="row corpo">
+        <div id="me" class="col col-4 box"></div>
+        <div class="col col-3 box">
+            <h1>Hi, I'm Xavier</h1>
+            <p id="about">currently studying at ATEC in a Programming course, I'm very passionate and looking forward to learn something new everyday.</p>
+        </div>
+        <div id="studio" class="col col-2 box"></div>      
+    </div>
+    <div class="row">
+        <div class="col col-3 box"></div>
+        <div id="cv" class="col col-6 box">
+            <h2>Real Life - Tecnologias De Informação, S.A</h2>
+            <p>[ 13/03/2021 - 13/07/2021 ]</p>
+        </div>
+        <div class="col col-3 box"></div>
+    </div>
+    <div class="row">
+        <div id="skills" class="col col-3 box">
+            <p class="comment">/* Creating a script that returns the date from a date object, and shows the information on a paragraph element. */ </p><br><br>
+            <p>
+                var date = new Date();<br><br>
+                var current_date = date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear();<br><br>
+                document.getElementById("date").innerText = current_date;<br><br>
+            </p><br><br>
+            <p id="output" class="comment">//the output of this script is somewhere in this site :D</p>
+        </div>
+        <div id="parallax" class="col col-3 box"></div>
+        <div id="ed" class="col col-4 box">
+            <h2>EPED - Escola Profissional de Educação para o Desenvolvimento</h2>
+            <p class="education">[ 20/09/2018 - 25/07/2021 ]</p><br><br><br><br><br>
+            <p id="arrow">&downarrow;</p>
+            <h2>ATEC - Academia de Formação</h2>
+            <p class="education">[ 05/09/2022 - 31/01/2024 ]</p>
+        </div>      
+    </div>
+
+    <div class="row contacts">
+        <div class="col col-4 box"></div>
+        <div class="col col-4 box">
+            <h1>Contacts</h1>
+            <p><a href = "mailto: xavisntrodrigues@gmail.com">xavisntrodrigues@gmail.com</a></p>
+            <p>Phone: +351 936 351 970</p>
+        </div>
+        <div id="photo1" class="col col-4 box"></div>      
+    </div>
+
+    <div class="row">
+        <div class="col col-4 socials"><a href="">Twitter</a></div>
+        <div class="col col-4 socials"><a href="">LinkedIn</a></div>
+        <div class="col col-4 socials"><a href="">Facebook</a></div>      
+    </div>
+    <footer>
+        <p class="data">&copy; by
+             Xavier Rodrigues</p>
+        <p id="date" class="data"></p>
+    </footer>
+    <script>
+        var date = new Date();
+        var current_date = date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear();
+        document.getElementById("date").innerText = current_date;
+   </script>
+</body>
+</html>

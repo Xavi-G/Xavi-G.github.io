@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+:root{
+
+    --laranja: #e8b771;
+    --cinzentoAcastanhado: #e0d4cc;
+    --cinzento: #e7e7e5;
+    --tomCinzento: #ded7cf;
+    --tomCinzento2: #d8e3e8;
+    --lighterDark: #1a1a1a;
+    --castanho: rgba(102,78,48,255);
+    /* azul claro = #d4e7e7
+    azul = #647fb9
+    amarelo torrado claro = #e8b771
+    amarelo torrado = #bf833d
+    castanho = #664c34
+    roxo = #675676
+
+
+    branco = #e7e7e5 */
+}
+
+*{
+    padding: 0%; margin: 0%;
+    font-family: 'Urbanist', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.row{ display: table; width: 100%; }
+.col{ display: table-cell; padding: 0%; vertical-align: top;}
+/* .principal{vertical-align: middle;} */
+.col-1{ width: 8.33%; } 
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+a{
+    text-decoration: none;
+}
+
+header{
+    vertical-align: middle;
+    box-shadow: 1px 1px;
+    border-top: solid 2px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+
+header a{
+    color: black;
+    transition: .4s;
+    padding-right: 2%;
+}
+
+header a:last-child{
+    padding-right: 0%;
+}
+
+header a:hover{
+    color: var(--castanho);
+    transition: .4s;
+}
+
+.logo{
+    border: solid 2px black;
+    padding: 40px;
+    text-align: center;
+    background-color: var(--cinzentoAcastanhado);
+    font-size: 2em;
+}
+
+.nav{
+    text-align: right;
+    padding: 40px;
+    border: solid 2px black;
+    font-size: 1.3em;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.corpo{
+    margin-top: 104px;
+}
+
+.box{
+    height: 600px;
+    border: solid 2px black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#me{
+    background-image: url(resources/images/Xavier.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: var(--cinzento);
+}
+
+#about{
+    font-size: 1.3em;
+    margin: 5% 15%;
+}
+
+
+#studio{
+    background: url(resources/images/1_right.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#cv{
+    background-color: var(--tomCinzento);
+}
+
+#ed{
+    background-color: var(--tomCinzento2);
+    vertical-align:text-top;
+}
+
+#ed h2{
+    margin-top: 10%;
+    font-weight:600;
+}
+
+.education{
+    margin-top: 5%;
+    font-size: 1.3em;
+}
+
+#arrow{
+    font-size: 3em;
+    color: white;
+}
+
+#skills{
+    background-color: var(--lighterDark);
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+#skills p{
+    font-family:'Courier New', Courier, monospace;
+    margin: 5%;
+}
+
+.comment{
+    color: var(--laranja);
+}
+
+.data{
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--laranja);
+    vertical-align: bottom;
+}
+
+#parallax{
+    background: url(resources/images/parallax.jpg) center left no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 80%;
+
+}
+
+.contacts a{
+    color: black;
+    transition: .4s;
+}
+
+.contacts a:hover{
+    color: var(--castanho);
+    transition: .4s;
+}
+
+.contacts p{
+    margin-bottom: 5%;
+    font-size: 1.3em;
+}
+
+.contacts h1:first-child{
+    margin-bottom: 5%;
+}
+
+
+
+.socials{
+    height: 75px;
+    border: solid 2px black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.socials a{
+    color: black;
+    transition: .4s;
+}
+
+.socials a:hover{
+    color: var(--castanho);
+    transition: .4s;
+}
+
+footer{
+    padding: 1%;
+    border-top: solid 2px black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    [class*="col-"]{ width: 100%; display: table-row;}
+	.col{ display: table; }
+    header .nav{
+        text-align: center;
+    }
+}
