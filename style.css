@@ -123,13 +123,34 @@ header a:hover{
     vertical-align: bottom;
 }
 
+.vert{
+    list-style: none;
+    font-size: 2em;
+}
+
 #cv{
     background-color: var(--tomCinzento);
 }
 
+#cv li{
+    text-align: left;
+    padding: 2% 7.5%;
+    list-style: none;
+    font-size: 1.1em;
+    /* font-weight:500; */
+}
+
+#cv li:first-child{
+    padding-top: 5%;
+}
+
+#cv li:last-child{
+    padding-bottom: 0%;
+}
+
 #ed{
     background-color: var(--tomCinzento2);
-    vertical-align:text-top;
+    /* vertical-align:text-top; */
 }
 
 #ed h2{
@@ -151,7 +172,6 @@ header a:hover{
     background-color: var(--lighterDark);
     color: white;
     text-align: left;
-    vertical-align: top;
 }
 
 #skills p{
@@ -230,4 +250,7 @@ footer{
     header .nav{
         text-align: center;
     }
+    /* .box{
+        height: 300px;
+    } */
 }
