@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lista>
+  <jogo>
+    <nome>Counter Strike 2</nome>
+    <pvp>Free</pvp>
+    <plataforma>Steam</plataforma>
+    <imagem>imagens_jogos/cs.jpg</imagem>
+	<desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</desc>
+    <video>https://www.youtube.com/callofduty</video>
+  </jogo>
+  <jogo>
+    <nome>Valorant</nome>
+    <pvp>Free</pvp>
+    <plataforma>Riot</plataforma>
+    <imagem>imagens_jogos/valorant.jpeg</imagem>
+	  <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</desc>
+    <video>https://www.youtube.com/callofduty</video>
+  </jogo>
+  <jogo>
+    <nome>Rocket League</nome>
+    <pvp>Free</pvp>
+    <plataforma>Epic Games</plataforma>
+    <imagem>imagens_jogos/rocket.jpg</imagem>
+	  <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</desc>
+    <video>https://www.youtube.com/callofduty</video>
+  </jogo>
+  <jogo>
+    <nome>GTA VI</nome>
+    <pvp>150€</pvp>
+    <plataforma>Rockstar</plataforma>
+    <imagem>imagens_jogos/gta.jpeg</imagem>
+	  <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</desc>
+    <video>https://www.youtube.com/watch?v=LbY69bbgpvY</video>
+  </jogo>
+  <jogo>
+    <nome>Sonic Generations</nome>
+    <pvp>20€</pvp>
+    <plataforma>PS4</plataforma>
+    <imagem>imagens_jogos/sonic.png</imagem>
+    <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</desc>
+    <video>https://www.youtube.com/watch?v=LbY69bbgpvY</video>
+  </jogo>
+	<jogo>
+		<nome>Ratchet and Clank</nome>
+		<pvp>20€</pvp>
+		<plataforma>Steam</plataforma>
+		<imagem>imagens_jogos/ratchet.png</imagem>
+		<desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</desc>
+		<video>https://www.youtube.com/watch?v=LbY69bbgpvY</video>
+	</jogo>
+</lista>
